@@ -15,7 +15,7 @@ namespace SonarShield.Controllers
 
         public IActionResult Index()
         {
-            ar SonarString = "Unused string";
+            var SonarString = "Unused string";
             ViewBag.SonarTitle = "We are on Mars";
             return View();
         }
